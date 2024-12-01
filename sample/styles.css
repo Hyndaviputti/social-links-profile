@@ -1,0 +1,80 @@
+.bg-con{
+    background-color:hsl(0, 0%, 8%);
+    background-size:cover;
+    height: 100vh;
+}
+.card-con{
+    background-color:hsl(0, 0%, 12%);
+    border-radius:14px;
+    height: 400px;
+    width: 250px;
+    margin:auto;
+    text-align: center;
+}
+.image{
+    width: 70px;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-radius: 54px;
+}
+.head{
+    color:white;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+.head2{
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 600; 
+    color:hsl(75, 94%, 57%)
+}
+.para{
+    color:white;
+    font-size: 9px;
+    font-weight: 400;
+    padding:10px;
+}
+.links{
+    list-style-type: none;
+    /* color:black; */
+    font-weight: 500;
+    font-size:9px;
+   
+    
+}
+
+.buttons{
+    text-align:center;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin-bottom: 7px;
+    padding: 5px;
+    border-radius:5px;
+    margin-right:20px;
+    margin-left:20px;
+    cursor: pointer;
+    
+}
+.buttons a {
+    text-decoration: none;
+    color: inherit; /* Ensures the link inherits color from the parent */
+}
+
+.buttons:hover {
+    text-align: center;
+    background-color: hsl(75, 94%, 57%);
+    color: black; /* Sets color for child elements like links */
+    margin-bottom: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    /* cursor: pointer; */
+}
+
+.buttons:hover a {
+    color: black; /* Explicitly changes the link color to black on hover */
+}
+
+/* done anthey last a ivvadam marchipoya */
